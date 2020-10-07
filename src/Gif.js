@@ -18,6 +18,8 @@ class Gif extends Component {
             className= {`grid-item video ${loaded && 'loaded'}`}
             autoPlay
             loop
+            playsinline
+            muted
             key={id}
             src={images.original.mp4}
             //when the video loads we set the loaded state to be ture
